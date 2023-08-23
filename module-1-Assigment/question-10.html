@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>module-1 (question-10)</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <!-- Question-(10)
+
+    → How can we club two or more rows or columns into a single row or column in an HTML table? With Example.
+
+    Ans:- 
+
+    → We use the colspan and rowspan attribute, to merge cells in HTML. The rowspan attribute is for the number of rows a cell should 
+      merge, whereas the colspan attribute is for the number of columns a cell should merge. The attribute should be placed inside the 
+      <td> tag. -->
+
+
+    <!-- * Example is row span * -->
+
+    <table width="50%" align="center" border="1">
+        <thead>
+            <tr>
+                <caption style="padding: 20px; font-size: 20px;">User Informations</caption>
+            </tr>
+            <tr>
+                <th>#id</th>
+                <th>Name</th>
+                <th>number</th>
+                
+                
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="center">
+                <td>01</td>
+                <td>Parmar Mitesh</td>
+                <td>(+91)9726362863</td>
+            
+
+            </tr>
+
+            <tr align="center">
+                <td>02</td>
+                <td>Jadav Devraj</td>
+                <td>(+91)7046003280</td>
+            </tbody>
+    </table>
+
+
+          <!-- * Example is colspan * -->
+      
+
+          <table width="70%" align="center" border="1">
+            <tr>
+            <caption><h2>View cart</h2></caption>
+        </tr>
+
+        <tr>
+            <th>id</th>
+            <th>photo</th>
+            <th>pname</th>
+            <th>price</th>
+            <th>quantity</th>
+            <th>subtotal</th>
+            <th>Action</th>
+        </tr>
+
+    
+        <tr align="center">
+            <td>101</td>
+            <td><img src="https://cdn1.smartprix.com/rx-i8H4E25NU-w1200-h1200/8H4E25NU.jpg" width="85px" height="85px"></td>
+            <td>iq neo 6</td>
+            <td>Rs.29,999 <del>Rs.31,999</del></td>
+            <td>1</td>
+            <td>Rs.29,999</td>
+            <td><a href="#">delete</a></td>
+        </tr>
+
+        <tr align="center">
+            <td>102</td>
+            <td><img src="https://m.media-amazon.com/images/I/71SWmrot-rL._SL1500_.jpg" width="85px" height="85px"></td>
+            <td>Oneplus Nord 2</td>
+            <td> Rs 25999 <del>Rs.29,999</del></td>
+            <td>1</td>
+            <td>Rs.25,999</td>
+            <td><a href="#">delete</a></td>
+        </tr>
+
+
+
+
+</body>
+</html>
